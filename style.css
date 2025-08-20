@@ -1,9 +1,94 @@
-header{
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+#logo {
+    width: 160px;
+    height: 40px;
+    padding-left: 80px
+}
+
+.divheader {
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+#login {
+    width: 82px;
+    height: 42.4px;
+    padding-right: 60px;
+    color: white;
+}
+
+.section1 {
+    width: 1512.8px;
+    height: 695.01;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagen1 {
+    width: 513px;
+    height: 426.43;
+}
+
+.section2 {
+    width: 1512.8px;
+    height: 566.6px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen2 {
+    width: 523px;
+    height: 544.36px;
+}
+
+.div1 {
+    width: 363.39px;
+    height: 204.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space space-between;
+    flex-basis: 300px;
+    flex-grow: 1;
+    transition: 0, 3;
+    border: 1px solid rgb(221, 230, 260);
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 32px 24px 40px 24px;
+    margin: 0 20px;
+
+}
+
+.section3 {
+    width: 1512.8px;
+    height: 882.46px;
+}
+
+.section4 {
     background-color: blue;
 }
-.section1{
-    background-color: blue;
-}
-.section4{
-    background-color: blue;
+
+#imagen3 {
+    width: 513px;
+    height: 374.88px;
 }
