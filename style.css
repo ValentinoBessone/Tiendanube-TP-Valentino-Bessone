@@ -322,16 +322,9 @@ header {
     transform: scale(1.05);
 }
 
-
 .fourth-section {
-    width: 1512.8px
-    background-color: #0050c3;
+    width: 1512.8px;
     height: 687px;
-}
-
-#imagen3 {
-    width: 513px;
-    height: 374.88px;
 }
 
 .fifth-section {
@@ -340,13 +333,19 @@ header {
     
 }
 
+#imagen3 {
+    width: 513px;
+    height: 374.88px;
+}
+
+
 .sixth-section {
-    width: 1512.8px
+    width: 1512.8px;
     height: 622;
 }
 
 .seventh-section {
-    width: 1512.8px
+    width: 1512.8px;
     height: 844px;
 }
 
