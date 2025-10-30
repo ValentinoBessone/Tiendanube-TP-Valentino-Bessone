@@ -101,7 +101,6 @@ header {
   margin: 0;
 }
 
-/* --- Input + botón simulando el formulario --- */
 .cajaprincipal input[type="text"] {
   width: 100%;
   padding: 16px 24px;
@@ -114,9 +113,6 @@ header {
   box-sizing: border-box;
 }
 
-
-
-/* --- Contenedor del input + botón juntos --- */
 .cajaprincipal .input {
   display: flex;
   align-items: center;
@@ -181,11 +177,12 @@ header {
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap; /* se adapta en pantallas chicas */
+  flex-wrap: wrap;
 }
 
 
 .divboxes {
+  margin-top: 50px;
     padding-top: 300px;
     display: flex;
     justify-content: center;
@@ -198,7 +195,6 @@ header {
     justify-content: space space-between;
     flex-basis: 300px;
     flex-grow: 1;
-    transition: 0, 3;
     border: 1px solid rgb(221, 230, 260);
     border-width: 2px;
     border-radius: 16px;
@@ -206,10 +202,6 @@ header {
     
 
 } 
-.divboxes:hover {
-  transform: translateY(-4px);
-  box-shadow: 0px 6px 16px rgba(0,0,0,0.08);
-}
 
 
 .divboxes h2 {
@@ -240,8 +232,94 @@ header {
 
 
 .third-section {
-    width: 1512.8px;
-    height: 884px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 40px 20px;
+    background-color: #fff; 
+}
+
+
+#thirdtitle {
+    font-size: 2.5em; 
+    color: #1a1a1a; 
+    margin-bottom: 40px;
+    font-weight: 700;
+    padding-bottom: 75px;
+}
+
+
+.bigbox {
+    display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+#divimage {
+    margin-bottom: 30px;
+}
+
+#imagen2 {
+  width: 523px;
+  height: 544px;
+    max-width: 100%;
+    height: auto;
+    margin-right: 60px;
+}
+
+
+#letters {
+    text-align: left; 
+    max-width: 450px; 
+}
+
+#letters h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+#letters p {
+    font-size: 1.1em;
+    color: #4f4f4f;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px; 
+}
+
+
+#letters p::before {
+    content: "✔"; 
+    color: #007bff; 
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+#thirdsectionbutton {
+  background-color: #0042a5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+#thirdsectionbutton:hover {
+    transform: scale(1.05);
 }
 
 
